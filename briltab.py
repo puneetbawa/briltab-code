@@ -1774,82 +1774,74 @@ while True:
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '1'
+            math[0] = '2'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b2 == False and b3 == True and b4 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '2'
+            math[0] = '3'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b2 == False and b4 == False and b3 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '3'
+            math[0] = '4'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b4 == False and b2 == True and b3 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '4'
+            math[0] = '5'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b2 == False and b3 == False and b4 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '5'
+            math[0] = '6'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b2 == False and b3 == False and b4 == False and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '6'
+            math[0] = '7'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b3 == False and b4 == False and b2 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '7'
+            math[0] = '8'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b2 == False and b3 == False and b1 == True and b4 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '8'
+            math[0] = '9'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b2 == False and b3 == False and b4 == False and b1 == True and b5 == True and b6 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '9'
+            math[0] = '0'
             print("".join(math[:1]))
             speak(math[0], "en")
         elif b1 == False and b4 == True and b5 == True and b6 == True and b2 == True and b3 == True and \
                 b7 == True and b8 == True and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[0] = '0'
+            math[0] = '1'
             print("".join(math[:1]))
             speak(math[0], "en")
 
         elif b7 == False and b9 == True and b8 == True and b10 == True and b11 == True and b12 == True and \
-                b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
-
-            math[1] = '0'
-            print("".join(math[:2]))
-            st = "".join(math[:2])
-            speak(st, "en")
-
-        elif b7 == False and b9 == False and b8 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '1'
@@ -1857,7 +1849,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b7 == False and b8 == False and b9 == True and b10 == True and b11 == True and b12 == True and \
+        elif b7 == False and b9 == False and b8 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '2'
@@ -1865,7 +1857,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b7 == False and b8 == False and b10 == False and b9 == True and b11 == True and b12 == True and \
+        elif b7 == False and b8 == False and b9 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '3'
@@ -1873,7 +1865,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b7 == False and b10 == False and b8 == True and b9 == True and b11 == True and b12 == True and \
+        elif b7 == False and b8 == False and b10 == False and b9 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '4'
@@ -1881,7 +1873,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b7 == False and b8 == False and b9 == False and b10 == True and b11 == True and b12 == True and \
+        elif b7 == False and b10 == False and b8 == True and b9 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '5'
@@ -1889,7 +1881,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b7 == False and b8 == False and b9 == False and b10 == False and b11 == True and b12 == True and \
+        elif b7 == False and b8 == False and b9 == False and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '6'
@@ -1897,7 +1889,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b7 == False and b9 == False and b10 == False and b8 == True and b11 == True and b12 == True and \
+        elif b7 == False and b8 == False and b9 == False and b10 == False and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '7'
@@ -1905,7 +1897,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b8 == False and b9 == False and b7 == True and b10 == True and b11 == True and b12 == True and \
+        elif b7 == False and b9 == False and b10 == False and b8 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '8'
@@ -1913,7 +1905,7 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b8 == False and b9 == False and b10 == False and b7 == True and b11 == True and b12 == True and \
+        elif b8 == False and b9 == False and b7 == True and b10 == True and b11 == True and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '9'
@@ -1921,7 +1913,15 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
-        elif b8 == False and b9 == True and b10 == True and b7 == True and b11 == False and b12 == False and \
+        elif b8 == False and b9 == False and b10 == False and b7 == True and b11 == True and b12 == True and \
+                b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
+
+            math[1] = '0'
+            print("".join(math[:2]))
+            st = "".join(math[:2])
+            speak(st, "en")
+
+        elif b8 == True and b9 == False and b10 == False and b7 == True and b11 == False and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '+'
@@ -1937,10 +1937,28 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")	
 	
-        elif b8 == True and b9 == True and b10 == True and b7 == False and b11 == True and b12 == False and \
+        elif b8 == True and b9 == True and b10 == False and b7 == True and b11 == False and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
             math[1] = '*'
+            print("".join(math[:2]))
+            st = "".join(math[:2])
+            speak("multiply", "en")
+    
+
+        elif b8 == False and b9 == True and b10 == False and b7 == True and b11 == False and b12 == True and \
+                b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
+
+            math[1] = '>'
+            print("".join(math[:2]))
+            st = "".join(math[:2])
+            speak("multiply", "en")
+    
+
+        elif b8 == True and b9 == False and b10 == True and b7 == False and b11 == True and b12 == False and \
+                b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
+
+            math[1] = '<'
             print("".join(math[:2]))
             st = "".join(math[:2])
             speak("multiply", "en")
@@ -1955,75 +1973,75 @@ while True:
 
         elif b13 == False and b15 == True and b14 == True and b16 == True and b17 == True and b18 == True:
 
-            math[2] = '0'
+            math[2] = '1'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b13 == False and b15 == False and b14 == True and b16 == True and b17 == True and b18 == True:
 
-            math[2] = '1'
+            math[2] = '2'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b13 == False and b14 == False and b15 == True and b16 == True and b17 == True and b18 == True:
 
-            math[2] = '2'
+            math[2] = '3'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
     
         elif b13 == False and b14 == False and b16 == False and b15 == True and b17 == True and b18 == True:
 
-            math[2] = '3'
+            math[2] = '4'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b13 == False and b16 == False and b14 == True and b15 == True and b17 == True and b18 == True:
 
-            math[2] = '4'
+            math[2] = '5'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b13 == False and b14 == False and b15 == False and b16 == True and b17 == True and b18 == True:
 
-            math[2] = '5'
+            math[2] = '6'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b13 == False and b14 == False and b15 == False and b16 == False and b17 == True and b18 == True:
 
-            math[2] = '6'
+            math[2] = '7'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b13 == False and b15 == False and b16 == False and b14 == True and b17 == True and b18 == True:
 
-            math[2] = '7'
+            math[2] = '8'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b14 == False and b15 == False and b13 == True and b16 == True and b17 == True and b18 == True:
 
-            math[2] = '8'
+            math[2] = '9'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
         elif b14 == False and b15 == False and b16 == False and b13 == True and b17 == True and b18 == True:
 
-            math[2] = '9'
+            math[2] = '0'
             print("".join(math[:3]))
             st = "".join(math[:3])
             speak(st, "en")
 
-        if (math[1] == '+' or math[1] == '-' or math[1] == '*' or math[1] == '/'):
+        if (math[1] == '+' or math[1] == '-' or math[1] == '*' or math[1] == '/' or math[1] == '>' or math[1] =='<'):
 	    	
     	    if(math[1] == '+' and math[2]!=''):
                 x = int(math[0]) + int(math[2])
@@ -2034,6 +2052,20 @@ while True:
                 x = int(math[0]) - int(math[2])
                 print(x)
                 speak(str(x), "en")
+
+		
+    	    elif(math[1] == '>'and math[2]!=''):
+                if(math[0]) > int(math[2]):
+			speak("True","en")
+                else:
+                	speak("False", "en")
+	
+    	    elif(math[1] == '<'and math[2]!=''):
+                if(math[0]) < int(math[2]):
+			speak("True","en")
+                else:
+                	speak("False", "en")
+	
 
     	    elif(math[1] == '*' and math[2]!=''):
                 x = int(math[0]) * int(math[2])
