@@ -1971,6 +1971,14 @@ while True:
             st = "".join(math[:2])
             speak(st, "en")
 
+        elif b8 == True and b9 == False and b10 == False and b7 == True and b11 == False and b12 == False and \
+                b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
+
+            math[1] = '='
+            print("".join(math[:2]))
+            st = "".join(math[:2])
+            speak(st, "en")
+
         elif b13 == False and b15 == True and b14 == True and b16 == True and b17 == True and b18 == True:
 
             math[2] = '1'
@@ -2065,6 +2073,13 @@ while True:
 			speak("True","en")
                 else:
                 	speak("False", "en")
+	
+
+	    elif(math[1] == '='and math[2]!=''):
+                if(math[0]) == int(math[2]):
+			speak("Equal","en")
+                else:
+                	speak("Not Equal", "en")
 	
 
     	    elif(math[1] == '*' and math[2]!=''):
