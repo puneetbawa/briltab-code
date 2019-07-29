@@ -1935,8 +1935,8 @@ while True:
             math[1] = '-'
             print("".join(math[:2]))
             st = "".join(math[:2])
-            speak(st, "en")	
-	
+            speak(st, "en") 
+    
         elif b8 == True and b9 == True and b10 == False and b7 == True and b11 == False and b12 == True and \
                 b13 == True and b14 == True and b15 == True and b16 == True and b17 == True and b18 == True:
 
@@ -2050,44 +2050,44 @@ while True:
             speak(st, "en")
 
         if (math[1] == '+' or math[1] == '-' or math[1] == '*' or math[1] == '/' or math[1] == '>' or math[1] =='<'):
-	    	
-    	    if(math[1] == '+' and math[2]!=''):
+            
+            if(math[1] == '+' and math[2]!=''):
                 x = int(math[0]) + int(math[2])
                 print(x)
                 speak(str(x), "en")
-    	   	    
-    	    elif(math[1] == '-'and math[2]!=''):
+                
+            elif(math[1] == '-'and math[2]!=''):
                 x = int(math[0]) - int(math[2])
                 print(x)
                 speak(str(x), "en")
 
-		
-    	    elif(math[1] == '>'and math[2]!=''):
+        
+            elif(math[1] == '>'and math[2]!=''):
                 if(math[0]) > int(math[2]):
-			speak("True","en")
+                    speak("True","en")
                 else:
-                	speak("False", "en")
-	
-    	    elif(math[1] == '<'and math[2]!=''):
+                    speak("False", "en")
+    
+            elif(math[1] == '<'and math[2]!=''):
                 if(math[0]) < int(math[2]):
-			speak("True","en")
+                    speak("True","en")
                 else:
-                	speak("False", "en")
-	
+                    speak("False", "en")
+    
 
-	    elif(math[1] == '='and math[2]!=''):
+            elif(math[1] == '='and math[2]!=''):
                 if(math[0]) == int(math[2]):
-			speak("Equal","en")
+                    speak("Equal","en")
                 else:
-                	speak("Not Equal", "en")
-	
+                    speak("Not Equal", "en")
+    
 
-    	    elif(math[1] == '*' and math[2]!=''):
+            elif(math[1] == '*' and math[2]!=''):
                 x = int(math[0]) * int(math[2])
                 print(x)
                 speak(str(x), "en")
 
-    	    elif(math[1] == '/' and math[2]!=''):
+            elif(math[1] == '/' and math[2]!=''):
                 if(math[2] == '0'):
                     speak("Cannot divide by zero","en")
                 else:
